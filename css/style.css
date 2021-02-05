@@ -108,8 +108,98 @@ border-radius: 5px;
 .header__menu-button:active{
   background-color:burlywood;
 }
-section{
+.survial{
   height: 780px;
   background: url(../img/Rectangle.png) no-repeat center;
   background-size: cover;
+  padding-top: 200px;
+}
+.survial__title{
+  font-size: 48px;
+line-height: 72px;
+letter-spacing: 2px;
+color: #CD6326;
+margin-bottom: 51px;
+}
+.survial__subtitle{
+  font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+  font-size: 18px;
+line-height: 27px;
+color: #F7F7F7;
+width: 274px;
+margin-bottom: 50px;
+}
+.survial__button{
+  background: #CD6326;
+  border-radius: 5px;
+  padding: 16px 42px;
+  border:  1px solid  #CD6326;
+}
+.survial__button-text{
+  font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+text-align: center;
+color: #F7F7F7;
+}
+.survial__button:hover{
+  background-color: yellow;
+}
+.survial__button:active{
+  background-color: brown;
+}
+.latest-articles{
+  background: #CCCCCC;
+  height: 1368px;
+  position: relative;
+}
+.latest-articles__title{
+  padding-top: 120px;
+  font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: #333333;
+margin-bottom: 20px;
+}
+.latest-articles__subtitle{
+font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #666666;
+margin-bottom: 120px;
+}
+.latest-articles__cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.latest-articles__cards-img{
+  margin-right: 65px;
+  position: relative;
+}
+.img_title{
+  position: absolute;
+  left: 184px;
+  top: 247;
+  font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #F7F7F7;   
+}
+.latest-articles__cards-img-subtitle{
+
 }
